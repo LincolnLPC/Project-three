@@ -1,1 +1,42 @@
-@import 'base/variables'
+@import 'base/variables';
+
+* {
+    font-family: 'Museo Sans Cyrl 500',sans-serif;
+    
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+.main_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 91px;
+    color: white;
+    font-family: 'Museo Sans Cyrl 700';
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 42px;
+    color: white;
+}
+.header_text {
+    display: block;
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
