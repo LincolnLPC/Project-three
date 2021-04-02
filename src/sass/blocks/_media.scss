@@ -1,0 +1,43 @@
+@media ( max-width: 1200px ) {
+    .main_header {
+        align-items: flex-end;
+    }
+}
+
+
+@media ( max-width: 992px ) {
+    .promo .main_header {
+        align-items: center; 
+    } 
+    .container {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .advant_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .header_logo {
+        width: 170px;
+        img {
+            width: 100%;
+        }
+    }
+    .header .header_oficial {
+        font-size: 10px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .header .header__phone {
+        font-size: 14px;
+    }
+    .header .button {
+        width: 120px;
+    }
+}
