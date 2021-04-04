@@ -12,6 +12,33 @@
     .container {
         padding: 0 5px;
     }
+    .carousel .carousel__inner {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        button {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            border-color: $main-color;  
+            background-color: #fff;
+            content-visibility: hidden;
+        }
+        .slick-active button {
+         background-color: $main-color;
+          
+        }
+        .slick-track {
+            height: 550px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
